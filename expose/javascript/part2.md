@@ -1,6 +1,6 @@
 ## Questions
 
-<img src="../../imaegs/lab4-part1b-q1.png" alt="part2a" width="400">
+<img src="../../images/lab4-part1b-q1.png" alt="part2a" width="400">
 
 1. What will happen at line 12 and why? If the code causes an error, explain why.
 
@@ -8,7 +8,7 @@
     Since `i` is a var variable, it is visable outside of the for loop.\
     `3` comes from that after the for loop, i would become 3.
 
-<img src="../../imaegs/lab4-part1b-q2.png" alt="part2b" width="400">
+<img src="../../images/lab4-part1b-q2.png" alt="part2b" width="400">
 
 2. What will happen at line 13 and why? If the code causes an error, explain why.
 
@@ -17,14 +17,14 @@
     `150` comes from that after for loop, discountedPrice is on the last one the for loop operated on (which is when i = 2). This is when the price = 300.
     Since discountedPrice = price * (1 - 0.5), discountedPrice = 300 * (1 - 0.5) = 150.
 
-<img src="../../imaegs/lab4-part1b-q3.png" alt="part2c" width="400">
+<img src="../../images/lab4-part1b-q3.png" alt="part2c" width="400">
 
 3. What will happen at line 14 and why? If the code causes an error, explain why.
 
     `150` would be printed out without error.\
     Since "finalPrice" is a var variable, it is visable inside the whole function.\
 
-<img src="../../imaegs/lab4-part1b-q4.png" alt="part2d" width="400">
+<img src="../../images/lab4-part1b-q4.png" alt="part2d" width="400">
 
 4. What will this function return? Give a brief explanation why. If the code causes an error, explain why.
 
@@ -32,26 +32,26 @@
     `discounted` is a var array variable that stores the discountedPrice. After the loop and the calculations, these are the answers.\
     No error would ocurr.\
 
-<img src="../../imaegs/lab4-part1b-q5.png" alt="part2e" width="400">
+<img src="../../images/lab4-part1b-q5.png" alt="part2e" width="400">
 
 5. What will happen at line 12 and why?  If the code causes an error, explain why. (assume this function is being called like the others: discountPrices([100, 200, 300], 0.5)).
 
     An error would ocurr becuase variable `i` is block-scoped and not visable outside of for loop.
 
-<img src="../../imaegs/lab4-part1b-q6.png" alt="part2f" width="400">
+<img src="../../images/lab4-part1b-q6.png" alt="part2f" width="400">
 
 6. What will happen at line 13 and why? If the code causes an error, explain why.
 
     An error would ocurr becuase variable `discountedPrice` is block-scoped and not visable outside of for loop.
 
-<img src="../../imaegs/lab4-part1b-q7.png" alt="part2g" width="400">
+<img src="../../images/lab4-part1b-q7.png" alt="part2g" width="400">
 
 7. What will happen at line 14 and why? If the code causes an error, explain why.
 
     `150` would be printed out since `finalPrice` is declared in the beginning of the function outside for loop. Therefore it's visable in the whole function.\
     `150` comes from the last calculation in for loop.
 
-<img src="../../imaegs/lab4-part1b-q8.png" alt="part2h" width="400">
+<img src="../../images/lab4-part1b-q8.png" alt="part2h" width="400">
 
 8. What will this function return? Give a brief explanation. If the code causes an error, explain why.
 
@@ -59,20 +59,20 @@
     `discounted` is a let array variable that stores the discountedPrice and is declared in the beginning of the function outside for loop. Therefore it's visable in the whole function.\
     After the loop and the calculations, these are the answers.\
 
-<img src="../../imaegs/lab4-part1b-q9.png" alt="part2i" width="400">
+<img src="../../images/lab4-part1b-q9.png" alt="part2i" width="400">
 
 9. What will happen at line 11 and why? If the code causes an error, explain why.
 
     An error would occur because `i` is a block-scoped variable and it's not visable outside of for loop.
 
-<img src="../../imaegs/lab4-part1b-q10.png" alt="part2j" width="400">
+<img src="../../images/lab4-part1b-q10.png" alt="part2j" width="400">
 
 10. What will happen at line 12 and why? If the code causes an error, explain why.
 
     `3` would be printed without error.\
     This `3` comes from the length of prices.
 
-<img src="../../imaegs/lab4-part1b-q11.png" alt="part2k" width="400">
+<img src="../../images/lab4-part1b-q11.png" alt="part2k" width="400">
 
 11. What will this function return? Give a brief explanation. If the code causes an error, explain why.
 
@@ -81,7 +81,7 @@
 
 ## Data Types
 
-<img src="../../imaegs/lab4-part1b-q12.png" alt="part2l" width="400">
+<img src="../../images/lab4-part1b-q12.png" alt="part2l" width="400">
 
 12. Given the above Object, write the notation for:\
     a. Accessing the value of the name property in the student object
@@ -165,7 +165,7 @@ For each of the following questions, note down the output as well as a brief exp
 
 ## Functions
 
-<img src="../../imaegs/lab4-part1b-q17.png" alt="part2m" width="400">
+<img src="../../images/lab4-part1b-q17.png" alt="part2m" width="400">
 
 17. If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result. Here we are passing in a function as a parameter, however we can also return a function from another function just as easily, you're encouraged to play around with callbacks as they are used heavily in frontend JS development. 
 
@@ -174,7 +174,7 @@ For each of the following questions, note down the output as well as a brief exp
     Inside the function `modifyArray()`, it iterates through the array that's being passed in and call function `doSomething` on each of the iterated items.
     As function doSomething `times` the passed item by `2`, after iterating through the whole array, the resulting array `newArr` would then become `[2, 4, 6]`.
 
-<img src="../../imaegs/lab4-part1b-q19.png" alt="part2n" width="400">
+<img src="../../images/lab4-part1b-q19.png" alt="part2n" width="400">
 
 19. What is the output of the above code?
 
