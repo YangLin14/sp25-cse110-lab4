@@ -1,6 +1,6 @@
 ## var declaration
 
-<img src="../../imaegs/lab4-part1a-q1+2.png" alt="part1a" width="400">
+<img src="../../images/lab4-part1a-q1+2.png" alt="part1a" width="400">
 
 1. What is printed by line 9? If the code returns an error, explain why.
 
@@ -16,7 +16,7 @@ There won't be error return because variable "result" is visable outside of the 
 
 Using var can lead to unexpected performance such as returning the wrong thing. Since var is <i>function-scoped</i> instead of <i>block-scoped</i>, it can cause confusing behavior especially the variables are "leak" outside of the block.
 
-<img src="../../imaegs/lab4-part1a-q3+4.png" alt="part1b" width="400">
+<img src="../../images/lab4-part1a-q3+4.png" alt="part1b" width="400">
 
 4. What is printed by line 9? If the code returns an error, explain why.
 
@@ -30,7 +30,7 @@ An error would occur here since "let" is block-scoped and not visable outside of
 
 ## const declaration
 
-<img src="../../imaegs/lab4-part1a-q5+6.png" alt="part1c" width="400">
+<img src="../../images/lab4-part1a-q5+6.png" alt="part1c" width="400">
 
 6. What is printed by line 9? If the code returns an error, explain why.
 
